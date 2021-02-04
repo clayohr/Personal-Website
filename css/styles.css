@@ -1,6 +1,151 @@
 body {
     text-align: center;
-    font-family:monospace;
     background-color:#F7A1B4 ;
     color: #2B061E;
+}
+
+.content {
+    
+    background-color:#2B061E;
+    width: 800px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px auto;
+    color:#FFEED6
+   
+}
+
+.bodyLinks {
+    margin: 10px;
+    display: block;
+}
+
+.header {
+    background-color: #2B061E;
+    color: #FFEED6;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    padding: 17px;
+    
+}
+
+.links, .bodyLinks {
+    color: #D2BF55;
+    
+    
+}
+.name {
+    font-size: 40px;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:#FFEED6;
+    
+
+}
+.titles{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+#mainDiv {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    perspective: 800px;
+}
+
+#boxDiv {
+    width: 200px;   
+    transform-style: preserve-3d; 
+    animation: rotate 15s linear infinite;
+}
+
+#boxDiv div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    opacity: 0.7;
+    color: white;
+}
+
+#front {
+    transform: translateZ(100px);
+    background: black;
+    background-image: url(../images/014a49cab72030b42fcc86dc6b580346.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+#back {
+    transform: rotateY(180deg) translateZ(100px);
+    background: #101010;
+    background-image: url(../images/014a49cab72030b42fcc86dc6b580346.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
+#left {
+    transform: rotateY(-90deg) translateX(-100px);
+    transform-origin: left;
+    background: black;
+    background-image: url(../images/014a49cab72030b42fcc86dc6b580346.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
+#right {
+    transform: rotateY(90deg) translateX(100px);
+    transform-origin: right;
+    background: #101010;  
+    background-image: url(../images/014a49cab72030b42fcc86dc6b580346.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
+#top {
+    transform: rotateX(-90deg) translateY(-100px);
+    transform-origin: top;
+    background: black;
+    background-image: url(../images/014a49cab72030b42fcc86dc6b580346.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+
+#bottom {
+    transform: rotateX(90deg) translateY(100px);
+    transform-origin: bottom;
+    background: #101010; 
+    background-image: url(../images/014a49cab72030b42fcc86dc6b580346.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes rotate {
+    0% { transform: rotateY(0); }
+    100% { transform: rotateY(360deg); }
+}
+
+
+.shadow {
+    width:200px;
+    height:200px;
+    background: rgba(43,6,30,0.5);
+    box-shadow: 0 0 50px 50px rgba(43,6,30,0.5);
+    -webkit-transform: rotateX(90deg) translateZ(-200px) rotateY(180deg) translateX(0px);
+
+}
+
+
+#mushroomRing {
+    width: 400px;
+    margin: 0;
+   z-index: -8;
+    position: relative;
+    top: -150px;
+    
 }
