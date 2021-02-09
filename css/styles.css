@@ -1,19 +1,14 @@
 body {
-    text-align: center;
+    
+    margin: 3px;
+    
     background-color:#F7A1B4 ;
     color: #2B061E;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
-.content {
-    
-    background-color:#2B061E;
-    width: 800px;
-    display: inline-block;
-    padding: 10px;
-    margin: 10px auto;
-    color:#FFEED6
-   
-}
+
 
 .bodyLinks {
     margin: 10px;
@@ -21,40 +16,48 @@ body {
 }
 
 .header {
-    background-color: #2B061E;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     color: #FFEED6;
-    max-width: 600px;
-    display: block;
-    margin: 0 auto;
-    padding: 17px;
-    
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .links, .bodyLinks {
-    color: #D2BF55;
-    
-    
+    color: #2B061E;
+     
 }
 .name {
-    font-size: 40px;
-    padding: 0px;
-    margin: 0;
-    margin-bottom: 10px;
+    font-size: 70px;
+    
     text-decoration: none;
     color:#FFEED6;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
     
 
 }
-.titles{
-    margin-top: 30px;
-    font-weight: bold;
-    font-size: large;
+
+.emailimage {
+    display: block;
+    margin: 5px auto;
+    padding-top: 8px;
+    
 }
+
+
 #mainDiv {
+    display: block;
     width: 200px;
     height: 200px;
-    margin: 100px auto;
+    margin: 10px auto;
     perspective: 800px;
+    position: relative;
+    right: 29%;
+    top: 150px;
+    
 }
 
 #boxDiv {
@@ -140,12 +143,41 @@ body {
 
 }
 
+.images {
+    width: 1000px;
+    position: relative;
+    height: 100%;
+}
 
 #mushroomRing {
+    
     width: 400px;
-    margin: 0;
+    margin: auto;
    z-index: -8;
     position: relative;
-    top: -150px;
+    top: 570px;
+    
     
 }
+#flowers {
+    
+   z-index: -9;
+    position: relative;
+    top: 450px;
+    left: -250px;
+    
+    
+}
+
+#flowers2 {
+    
+    z-index: -9;
+    position: relative;
+    top: 500px;
+    left: -300px;
+    
+    
+    
+}
+
+
