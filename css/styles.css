@@ -1,17 +1,24 @@
 body {
     
     margin: 3px;
-    
     background-color:#F7A1B4 ;
     color: #2B061E;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    
+    overflow: hidden;
+}
+
+.content {
+    font-size: 50px;
+    float:left;
+    margin-top: 400px;
+    margin-left: 15px;
 }
 
 
-
 .bodyLinks {
-    margin: 10px;
+    margin: 0px;
     display: block;
 }
 
@@ -20,33 +27,23 @@ body {
     bottom: 0;
     left: 0;
     color: #FFEED6;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    
 }
 
 .links, .bodyLinks {
-    color: #2B061E;
+    color: #FFEED6;
      
 }
 .name {
-    font-size: 70px;
-    
+    font-size: 60px;
     text-decoration: none;
     color:#FFEED6;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    
-    
-
+    margin: 0 auto;
 }
-
-.emailimage {
-    display: block;
-    margin: 5px auto;
-    padding-top: 8px;
-    
-}
-
 
 #mainDiv {
     display: block;
@@ -54,10 +51,9 @@ body {
     height: 200px;
     margin: 10px auto;
     perspective: 800px;
-    position: relative;
-    right: 29%;
-    top: 150px;
-    
+    position: absolute;
+    left: 90px;
+    top: 770px;
 }
 
 #boxDiv {
@@ -145,39 +141,139 @@ body {
 
 .images {
     width: 1000px;
-    position: relative;
-    height: 100%;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    
+    
 }
 
 #mushroomRing {
-    
     width: 400px;
     margin: auto;
-   z-index: -8;
+    z-index: -8;
     position: relative;
-    top: 570px;
-    
-    
+    top: 920px;
+    left: -150px;
 }
 #flowers {
-    
-   z-index: -9;
+    z-index: -9;
     position: relative;
-    top: 450px;
-    left: -250px;
-    
-    
+    top: 800px;
+    left: -510px;
 }
 
 #flowers2 {
-    
     z-index: -9;
     position: relative;
-    top: 500px;
-    left: -300px;
+    top: 820px;
+    left: -450px;
+}
+
+#heart1 {
+    z-index: -9;
+    position: relative;
+    top: 654px;
+    left: -83px;
+}
+#heart2 {
+    z-index: -9;
+    position: relative;
+    top: 510px;
+    left: 286px;
+}
+#cat {
+    
+    z-index: -9;
+    position: fixed;
+    top: -10px;
+    left: 700px;
     
     
     
 }
 
+#roses {
+    z-index: -8;
+    position: relative;
+    top: 365px;
+    left: 40px;
+}
+#window {
+    z-index: -10;
+    position: relative;
+    top: 410px;
+    left: 20px;
+}
 
+#scene {
+    z-index: -9;
+    position: relative;
+    top: -190px;
+    left: -500px;
+}
+
+#skullbug {
+    z-index: -10;
+    position: relative;
+    top: 239px;
+    left: 588px;
+}
+
+#catwalking {
+    left: -295px;
+    top: 400px;
+    position: relative;
+}
+
+#angel {
+  position: relative;
+  left: -200px;
+  top: 15px;
+}
+
+#hand {
+    top: -278px;
+    position: relative;
+    left: 30px;
+}
+
+#bug {
+    position: relative;
+    left: 257px;
+    top: 288px;
+}
+
+#butterfly {
+    position: relative;
+    left: -21px;
+    top: -310px;
+}
+
+#door {
+    position: relative;
+    left: 476px;
+    top: -48px;
+    width: 400px;
+    z-index: -11;
+}
+#star {
+    position: relative;
+    left: -574px;
+    top: 48px;
+}
+#star2 {
+    position: relative;
+    left: -393px;
+    top: -140px;
+}
+#star3 {
+    position: relative;
+    left: 345px;
+    top: -124px;
+}
+#halo {
+    position: relative;
+    left: 150px;
+    top: -334px;
+}
